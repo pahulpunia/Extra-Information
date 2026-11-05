@@ -2,17 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy</title>
   <style>
     body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
     h1 { font-size: 1.4rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.6rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.4rem; }
+    .updated { color: #666; font-size: 0.9rem; }
   </style>
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p>This extension does not collect, transmit, or share any user data. All preferences are stored locally in your browser using <code>chrome.storage</code> and never leave your device.</p>
+  <p class="updated">My New Tab · Last updated November 4, 2026</p>
+  <p>This extension does not collect any user data, and nothing is ever sent to the developer. All preferences are stored locally in your browser and never leave your device, except when you turn on a card that needs the internet (listed below).</p>
+
+  <h2>Stored only on your device</h2>
+  <ul>
+    <li>Settings, to-dos, notes, habits, counters, countdowns, class schedule, flashcards, shortcuts, saved layouts, and custom background images.</li>
+    <li>The optional name used in greetings.</li>
+    <li>Your top sites, bookmarks, and recently closed tabs, if you choose to show them. These are only displayed on the page.</li>
+    <li>In Brave, if you allow file access: your Shields stats and Brave's background photos, read only from Brave's own folders.</li>
+    <li>Removing the extension deletes all of it.</li>
+  </ul>
+
+  <h2>Sent only when you turn on a card</h2>
+  <ul>
+    <li><strong>Weather and Air quality:</strong> the city you search for and pick, sent to Open-Meteo.</li>
+    <li><strong>GitHub:</strong> the user or repository you enter, sent to GitHub.</li>
+    <li><strong>FRC team:</strong> the team number, sent to Statbotics.</li>
+    <li><strong>Packages:</strong> package names, sent to npm, PyPI, and pypistats.org.</li>
+    <li><strong>Currency and Crypto:</strong> the currencies or coins you pick, sent to Frankfurter and CoinGecko.</li>
+    <li><strong>Rocket launches:</strong> downloaded from The Space Devs. Nothing about you is sent.</li>
+    <li><strong>Feeds, Agenda, and Service status:</strong> the links and websites you add are contacted directly, after the extension asks your permission for each site.</li>
+  </ul>
+
+  <h2>Connections (optional)</h2>
+  <ul>
+    <li>If you connect GitHub, Canvas, or Todoist, you paste an access token you created on that service.</li>
+    <li>The token is stored only in your browser and is sent only to that service (api.github.com, your school's Canvas site, or api.todoist.com) over a secure connection, to load what its card shows.</li>
+    <li>Tokens are never sent to the developer or anyone else, and are never included in backups, share codes, or saved layouts.</li>
+    <li>Disconnecting deletes the token and anything loaded with it. To revoke access completely, delete the token on the service's website.</li>
+  </ul>
+
   <p>The use of information received from Google APIs will adhere to the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
   <p><strong>Recommended Contact:</strong> pahulpunia@gmail.com</p>
   <p><strong>Extra Contact:</strong> pjasvir321@gmail.com</p>
 </body>
-</html>   
+</html>
